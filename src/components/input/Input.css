@@ -1,0 +1,24 @@
+.input-label {
+    color: var(--color-light-green);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.input {
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid var(--color-light-green);
+    border-width: 0 0 2px;
+    font-size: 14px;
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    outline: 0;
+    padding: 10px 0 5px;
+    width: 100%;
+}
+
+.error {
+    color: var(--color-error);
+    font-size: 12px;
+}

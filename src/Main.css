@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 470px;
+  padding: 16px;
+}
+
+.flex-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.flex-wrapper div:nth-child(1) {
+  flex: 1;
+}
+
+.flex-wrapper div:nth-child(2) {
+  flex: 1;
+}
+
+.flex-wrapper div:last-child {
+  flex: 0.5;
+  min-width: 100px;
+}
+
+@media only screen and (max-width: 460px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .flex-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/*Animate*/
+.test-button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.animate {
+  transition: transform 0.35s ease-in-out;
+}
+
+.animate.grow {
+  transform: scale(1.5);
+}

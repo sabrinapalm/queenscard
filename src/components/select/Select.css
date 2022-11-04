@@ -1,0 +1,40 @@
+.select-label {
+    color: var(--color-light-green);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.select {
+    background-color: transparent;
+    border-color: var(--color-light-green);
+    border: 2px solid var(--color-light-green);
+    border-width: 0 0 2px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    padding: 10px 0 5px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+.select:focus-visible {
+    outline: 1.5px solid var(--color-light-green);
+}
+
+.select-label-placeholder {
+    height: 20px;
+}
+
+@media only screen and (max-width: 460px) {
+    .select-label-placeholder {
+        display: none;
+    }
+}
+
+
+.error {
+    color: var(--color-error);
+    font-size: 12px;
+}
