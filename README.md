@@ -1,7 +1,5 @@
 # Queens Card Form
 
-Deployed at: https://queenscard.netlify.app/
-
 ## Available Scripts
 
 To run the project run:
